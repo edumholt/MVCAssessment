@@ -1,0 +1,39 @@
+/*!
+ * JavaWebProgramming v1
+ *
+ * Copyright 2013 George Andrews
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built by @_george_andrews.
+ */
+ .container {width:1000px;}
+ 
+  .img {
+    float: right;
+    height: 184px;
+    width: 184px;
+    position: relative;
+    top: -130px;
+    left: -80px;
+ }
+ 
+ .hero-unit {
+    position: relative;
+ }
+ 
+ #movies {
+ 
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 1px #A9EEEE, 0 0 2px #A9EEEE, 0 0 3px #A9EEEE, 0 0 4px #A9EEEE;
+ 
+ }
+ 
+ .glow:hover{
+    box-shadow: 0 0 1px red, 0 0 2px red;
+ }
+ 
+ .glow:focus{
+    box-shadow: 0 0 2px red, 0 0 3px red, 0 0 4px red, 0 0 5px red;
+ }
